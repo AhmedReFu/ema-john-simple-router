@@ -39,14 +39,8 @@ const SignUp = () => {
                 if (error) {
                     return setErrors(error.message.slice(22, 42))
                 }
-
             };
-
-
         }
-
-
-
     }
 
     return (
